@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #F9FFE8;
+}
+
+.comicBox {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#captions {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 200px;
+  left: 100%;
+  width: 250px;
+  height: 200px;
+  margin-left: 10px;
+  opacity: 0;
+}
+
+#phoneFrame {
+  position: absolute;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: 60px;
+  border: solid;
+  border-color: #FF6B00;
+  border-width: 8px;
+}
+
+#bgView {
+  position: absolute;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -300px;
+  background-color: #F9FFE8;
+}
+
+#bgView1 {
+  position: absolute;
+  display: flex;
+  width: 777px;
+  height: 830px;
+  left: 50%;
+  top: 50%;
+  margin-left: -357px;
+  margin-top: -400px;
+}
+
+#phoneF {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  margin-left: -292px;
+  margin-top: 68px;
+}
+
+#insF {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  margin-left: -292px;
+  margin-top: 68px;
+}
+
+#phoneScreen {
+  position: absolute;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  width: 232px;
+  height: 355px;
+  margin-left: -107px;
+  margin-top: 195px;
+  overflow-y: fixed;
+}
+
+#phoneContent {
+  position: absolute;
+  width: 232px;
+}
+
+#title {
+  position: absolute;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  width: 235px;
+  height: 400px;
+  margin-left: -118px;
+  margin-top: -218px;
+}
+
+#arrowR {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.01;
+}
+
+#arrowL {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.01;
+}
+
+#btn {
+  width: 100px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  font-family: cursive;
+}
+
+#startB {
+  position: absolute;
+  color: #FF6B00;
+  border-width: 1px;
+  border-color: #FF6B00;
+  background-color: #F9FFE8;
+  width: 200px;
+  height: 60px;
+  left: 50%;
+  margin-left: -100px;
+  bottom: 10px;
+  font-size: 16px;
+  font-weight: 1000px;
+  font-family: 'Annie Use Your Telescope';
+}
