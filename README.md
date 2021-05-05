@@ -6,4 +6,4 @@ The ways of interaction in this project are mainly scrolling and clicking. In th
 I collaborated with another student on this project. We together decided for the contents and flow of the project, and while she took charge of the paintings, I worked on all of the coding part.
 
 ## Project Link
-To view the project, click http://imanas.shanghai.nyu.edu/~as11326/ComicProject/view.html 
+To view the project, click http://imanas.shanghai.nyu.edu/~as11326/ComicProject/view.html                     
